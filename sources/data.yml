@@ -45,7 +45,7 @@ landscape:
             name: einops
             description: Flexible and powerful tensor operations for readable and reliable code (for pytorch, jax, TF and others)
             homepage_url: https://einops.rocks/
-            logo: pytorch-logo.svg
+            logo: einops.svg
             repo_url: https://github.com/arogozhnikov/einops
           - item:
             name: Horovod
