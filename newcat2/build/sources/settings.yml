@@ -173,9 +173,9 @@ grid_items_size: large
 groups:
   - name: PyTorch Ecosystem
     categories:
-      - Optimizations
       - Modeling
       - Training
+      - Optimizations
 
 
 # Header (optional)

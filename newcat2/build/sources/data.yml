@@ -6,12 +6,6 @@ landscape:
         name: Computer Vision
         items:
           - item:
-            name: accelerate
-            description: Accelerate is a library that enables the same PyTorch code to be run across distributed configurations
-            homepage_url: https://huggingface.co/docs/accelerate/index
-            logo: accelerate.svg
-            repo_url: https://github.com/huggingface/accelerate
-          - item:
             name: Albumentations
             description: a Python library for image augmentation used in deep learning and computer vision tasks to increase the quality of trained models. The purpose of image augmentation is to create new training samples from the existing data.
             homepage_url: https://albumentations.ai/docs/
@@ -65,6 +59,12 @@ landscape:
             homepage_url: https://docs.rastervision.io/
             logo: raster-vision.svg
             repo_url: https://github.com/azavea/raster-vision
+          - item:
+            name: torchvision
+            description: The torchvision package consists of popular datasets, model architectures, and common image transformations for computer vision.
+            homepage_url: https://pytorch.org/vision/stable/index.html
+            logo: torchvision.svg
+            repo_url: https://github.com/pytorch/vision
           - item:
             name: VISSL
             description: A library for state-of-the-art self-supervised learning from images
@@ -122,6 +122,24 @@ landscape:
             homepage_url: http://textbrewer.hfl-rc.com/
             logo: TextBrewer.svg
             repo_url: https://github.com/airaria/TextBrewer
+          - item:
+            name: torchtune
+            description: A Native-PyTorch library for LLM fine-tuning.
+            homepage_url: https://pytorch.org/torchtune/stable/index.html
+            logo: torchtune.svg
+            repo_url: https://github.com/pytorch/torchtune
+          - item:
+            name: torchtext
+            description: The torchtext package consists of data processing utilities and popular datasets for natural language.
+            homepage_url: https://pytorch.org/text/stable/index.html
+            logo: torchtext.svg
+            repo_url: https://github.com/pytorch/text
+          - item:
+            name: Transformers
+            description: Transformers provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio.
+            homepage_url: https://huggingface.co/transformers
+            logo: Transformers.svg
+            repo_url: https://github.com/huggingface/transformers
       - subcategory:
         name: Specialized
         items:
@@ -167,6 +185,18 @@ landscape:
             homepage_url: https://ibm.github.io/simulai/
             logo: SimulAI.svg
             repo_url: https://github.com/IBM/simulai
+          - item:
+            name: torchaudio
+            description: Torchaudio is a library for audio and signal processing with PyTorch. It provides I/O, signal and data processing functions, datasets, model implementations and application components.
+            homepage_url: https://pytorch.org/audio/stable/index.html
+            logo: torchaudio.svg
+            repo_url: https://github.com/pytorch/audio
+          - item:
+            name: torchrec
+            description: TorchRec is a specialized library within the PyTorch ecosystem, tailored for building, scaling, and deploying large-scale recommendation systems,
+            homepage_url: https://pytorch.org/torchrec/
+            logo: torchrec.svg
+            repo_url: https://github.com/pytorch/torchrec
           - item:
             name: torchgeo
             description: TorchGeo is a toolkit containing datasets, samplers, transforms, and pre-trained models for geospatial data.
@@ -219,6 +249,39 @@ landscape:
             logo: TorchIO.svg
             repo_url: https://github.com/fepegar/torchio
       - subcategory:
+        name: Adversarial & Robustness
+        items:
+          - item:
+            name: AdverTorch
+            description: A Toolbox for Adversarial Robustness Research
+            homepage_url: https://advertorch.readthedocs.io/en/latest/
+            logo: AdverTorch.svg
+            repo_url: https://github.com/BorealisAI/advertorch
+          - item:
+            name: Captum
+            description: An open source, extensible library for model interpretability built on PyTorch.
+            homepage_url: https://captum.ai/docs/introduction.html
+            logo: Captum.svg
+            repo_url: https://github.com/pytorch/captum
+          - item:
+            name: Ensemble-Pytorch
+            description: unified ensemble framework for PyTorch to improve the performance and robustness of your ensemble based deep learning model
+            homepage_url: https://ensemble-pytorch.readthedocs.io/
+            logo: Ensemble_PyTorch.svg
+            repo_url: https://github.com/TorchEnsemble-Community/Ensemble-Pytorch
+          - item:
+            name: pytorchfi
+            description: A runtime fault injection tool for PyTorch
+            homepage_url: https://pytorchfi.dev/
+            logo: PyTorchFI.svg
+            repo_url: https://github.com/pytorchfi/pytorchfi
+          - item:
+            name: TorchDrift
+            description: TorchDrift is a data and concept drift library for PyTorch. It lets you monitor your PyTorch models to see if they operate within spec.
+            homepage_url: https://torchdrift.org/
+            logo: TorchDrift.svg
+            repo_url: https://github.com/TorchDrift/TorchDrift
+      - subcategory:
         name: Multimodal
         items:
           - item:
@@ -261,36 +324,6 @@ landscape:
             logo: RoMa.svg
             repo_url: https://github.com/naver/roma
       - subcategory:
-        name: Adversarial & Robustness
-        items:
-          - item:
-            name: AdverTorch
-            description: A Toolbox for Adversarial Robustness Research
-            homepage_url: https://advertorch.readthedocs.io/en/latest/
-            logo: AdverTorch.svg
-            repo_url: https://github.com/BorealisAI/advertorch
-          - item:
-            name: Ensemble-Pytorch
-            description: unified ensemble framework for PyTorch to improve the performance and robustness of your ensemble based deep learning model
-            homepage_url: https://ensemble-pytorch.readthedocs.io/
-            logo: Ensemble_PyTorch.svg
-            repo_url: https://github.com/TorchEnsemble-Community/Ensemble-Pytorch
-      - subcategory:
-        name: General
-        items:
-          - item:
-            name: Captum
-            description: An open source, extensible library for model interpretability built on PyTorch.
-            homepage_url: https://captum.ai/docs/introduction.html
-            logo: Captum.svg
-            repo_url: https://github.com/pytorch/captum
-          - item:
-            name: Transformers
-            description: Transformers provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio.
-            homepage_url: https://huggingface.co/transformers
-            logo: Transformers.svg
-            repo_url: https://github.com/huggingface/transformers
-      - subcategory:
         name: Quantum
         items:
           - item:
@@ -299,6 +332,15 @@ landscape:
             homepage_url: https://pennylane.ai/
             logo: PennyLane.svg
             repo_url: https://github.com/PennyLaneAI/pennylane
+      - subcategory:
+        name: Reinforcement Learning
+        items:
+          - item:
+            name: torchrl
+            description: TorchRL is an open-source Reinforcement Learning (RL) library for PyTorch.
+            homepage_url: https://pytorch.org/rl/stable/index.html
+            logo: torchrl.svg
+            repo_url: https://github.com/pytorch/rl
   - category:
     name: Training
     subcategories:
@@ -363,7 +405,7 @@ landscape:
             name: PyTorch Lightning
             description: Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes.
             homepage_url: https://lightning.ai/
-            logo: PyTorch_Lightning.svg
+            logo: lightning.svg
             repo_url: https://github.com/Lightning-AI/pytorch-lightning
           - item:
             name: skorch
@@ -383,6 +425,12 @@ landscape:
             homepage_url: https://yoshitomo-matsubara.net/torchdistill/
             logo: torchdistill.svg
             repo_url: https://github.com/yoshitomo-matsubara/torchdistill
+          - item:
+            name: torchdata
+            description: A Beta library of common modular data loading primitives for easily constructing flexible and performant data pipelines. 
+            homepage_url: https://pytorch.org/data/beta/index.html
+            logo: torchdata.svg
+            repo_url: https://github.com/pytorch/data
           - item:
             name: TorchMetrics
             description: Machine learning metrics for distributed, scalable PyTorch applications.
@@ -582,6 +630,24 @@ landscape:
             logo: tensorly.svg
             repo_url: https://github.com/tensorly/tensorly
           - item:
+            name: torcharrow
+            description: TorchArrow is a torch.Tensor-like Python DataFrame library for data preprocessing in deep learning. It supports multiple execution runtimes and Arrow as a common format.
+            homepage_url: https://pytorch.org/torcharrow/beta/index.html
+            logo: torcharrow.svg
+            repo_url: https://github.com/pytorch/torcharrow
+          - item:
+            name: tensordict
+            description: TensorDict is a dictionary-like class that inherits properties from tensors, such as indexing, shape operations, casting to device etc.
+            homepage_url: https://pytorch.org/tensordict/stable/index.html
+            logo: tensordict.svg
+            repo_url: https://github.com/pytorch/tensordict
+          - item:
+            name: torchao
+            description: PyTorch library for custom data types & optimizations. Quantize and sparsify weights, gradients, optimizers & activations for inference and training.
+            homepage_url: https://pytorch.org/blog/pytorch-native-architecture-optimization/
+            logo: torchao.svg
+            repo_url: https://github.com/pytorch/ao
+          - item:
             name: Torchopt
             description: An efficient library for differentiable optimization built upon PyTorch
             homepage_url: https://torchopt.readthedocs.io/en/latest/
@@ -615,6 +681,12 @@ landscape:
             logo: intelex.svg
             repo_url: https://github.com/intel/intel-extension-for-pytorch
           - item:
+            name: OctoML Profiler
+            description: octoml-profile is a python library and cloud service that enables ML engineers to easily assess the performance and cost of PyTorch models on cloud hardware with state-of-the-art ML acceleration technology.
+            homepage_url: https://github.com/octoml/octoml-profile
+            logo: octoml.svg
+            repo_url: https://github.com/octoml/octoml-profile
+          - item:
             name: ONNX runtime
             description: High performance ML inferencing and training accelerator
             homepage_url: https://onnxruntime.ai/
@@ -638,9 +710,21 @@ landscape:
             homepage_url: https://pytorch.org/TensorRT/
             logo: TensorRT.svg
             repo_url: https://github.com/RizhaoCai/PyTorch_ONNX_TensorRT
+          - item:
+            name: PyTorchXLA
+            description: PyTorch runs on XLA devices, like TPUs, with the torch_xla package. 
+            homepage_url: https://pytorch.org/xla/release/2.1/index.html
+            logo: pytorchxla.svg
+            repo_url: https://github.com/pytorch/xla
       - subcategory:
         name: MLOps
         items:
+          - item:
+            name: accelerate
+            description: Accelerate is a library that enables the same PyTorch code to be run across distributed configurations
+            homepage_url: https://huggingface.co/docs/accelerate/index
+            logo: accelerate.svg
+            repo_url: https://github.com/huggingface/accelerate
           - item:
             name: Clear ML
             description: Suite of tools to streamline your AI workflow.
@@ -698,27 +782,3 @@ landscape:
             homepage_url: http://horovod.ai/
             logo: HOROVOD.svg
             repo_url: https://github.com/horovod/horovod
-      - subcategory:
-        name: Adversarial & Robustness
-        items:
-          - item:
-            name: pytorchfi
-            description: A runtime fault injection tool for PyTorch
-            homepage_url: https://pytorchfi.dev/
-            logo: PyTorchFI.svg
-            repo_url: https://github.com/pytorchfi/pytorchfi
-          - item:
-            name: TorchDrift
-            description: TorchDrift is a data and concept drift library for PyTorch. It lets you monitor your PyTorch models to see if they operate within spec.
-            homepage_url: https://torchdrift.org/
-            logo: TorchDrift.svg
-            repo_url: https://github.com/TorchDrift/TorchDrift
-      - subcategory:
-        name: Profiling
-        items:
-          - item:
-            name: OctoML Profiler
-            description: octoml-profile is a python library and cloud service that enables ML engineers to easily assess the performance and cost of PyTorch models on cloud hardware with state-of-the-art ML acceleration technology.
-            homepage_url: https://github.com/octoml/octoml-profile
-            logo: octoml.svg
-            repo_url: https://github.com/octoml/octoml-profile
